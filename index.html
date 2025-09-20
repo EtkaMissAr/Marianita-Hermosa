@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Para el amor de mi vida 💖</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://pngimg.com/uploads/hello_kitty/hello_kitty_PNG20.png"
+          alt="Hello Kitty"
+          class="logo"
+        />
+        <h1>Para la mujer que ilumina mi mundo</h1>
+      </header>
+
+      <main>
+        <!-- Login con input y botón oculto -->
+        <section id="login-section" class="card hidden">
+          <label for="datePass">Fecha (DD/MM/YY)</label>
+          <input
+            id="datePass"
+            date=""
+            placeholder="21/09/25"
+            autocomplete="on"
+          />
+          <button id="loginBtn" class="btn">Entrar</button>
+          <p id="loginMsg" class="msg"></p>
+        </section>
+
+        <!-- Sección secreta -->
+        <!-- Sección secreta -->
+        <section id="secret-section" class="card hidden">
+          <h2>🌸 Sorpresa 🌸</h2>
+          <p>
+            Te amo más que a todas las estrellas. Esta página fue hecha solo
+            para ti 💖.
+          </p>
+
+          <div class="gift">
+            <button id="revealBtn" class="btn outline">
+              Toca para ver una sorpresa
+            </button>
+
+            <!-- Carrusel de sorpresas -->
+            <div id="carousel" class="hidden">
+              <!-- Slide 1 -->
+              <div class="slide active">
+                <img
+                  src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWxwbjlqMDlqbnZwMXphNmp3Z2FwZjl3emNpcmcwdDE1b3c0NzdiZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kZqbBT64ECtjy/giphy.gif"
+                  alt="Corazón"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Ola amor, primero te quiero decir que asi no pueda comprarte
+                  cosas o ese estilo, queria hacerte algo para que sepas lo
+                  mucho que te adoroooo con mi corazón bb, y que sepas que por
+                  mas pelao que esté, haré lo que sea para hacerte feliz.
+                </p>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHJoYnI2NXJrcHN6bjA4ZmhjajA0ZWNvZGplaHJ6MHFiOWJ3MjU5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/92YG8KKSjYhMc/giphy.gif"
+                  alt="Hello Kitty amor"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Quiero que sepas que pase lo que pase con nosotros, asi
+                  peleemos mucho o estemos pasando por un mal momento, siempre
+                  estaré para ti amor, puedes contar conmigo siempre para todo
+                  mi vida 💞.
+                </p>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGZrcmozdnlmeGk2bGhreTI2cXI0emNrMWYwcTNjdmN4aGtrcDU3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xKRa4f8OO5jiw/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Eres mi felicidad diaria y para toda la vida mi amor hermoso,
+                  te amoooo.
+                </p>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjBjeDNnMmYweTd6NXd5eTd0c2NzeDluMjFnMWdhN2RhaWxldHR1diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Solo por ti daria la vida mi vida hermosa, entregaria todo
+                  solo para estar contigo asi ya te lo haya dicho muchisimas
+                  veces jsjsjsjsjs.
+                </p>
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXV1ODI3c3Ywa3RvY3hmaGJ2MTZybm5rMTlpNDdjNGhlcnJndWtvNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c76IJLufpNwSULPk77/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Quiero que sepas, mi amor, que eres mi razón de sonreír todos
+                  los días. A veces me pongo a pensar en lo mucho que has
+                  cambiado mi vida y no puedo evitar sentirme agradecido con la
+                  vida por haberte puesto en mi camino. No necesito lujos ni
+                  regalos cuando te tengo a ti, porque contigo siento que ya lo
+                  tengo todo.
+                </p>
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXBhanR6YXpycmdxMDk5YTZxM3QyODN5c241a2FndmkxYmZmeWVrZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0OgdJVNjbcIifqSb7U/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Tú eres mi confidente, mi mejor amiga, mi amor y mi vida
+                  entera. No sabes cuánto me llena el corazón saber que puedo
+                  contar contigo en cualquier momento, y que cuando el mundo
+                  parece estar en contra, tu abrazo se convierte en el lugar más
+                  seguro y bonito que existe.
+                </p>
+              </div>
+
+              <!-- Slide 6 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2JpcnZtejBkMDAwaHBuNzlud2ljd3E5anM5Mmt2Y2VhY2VhMjhnNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KmxmoHUGPDjfQXqGgv/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Mi amor, quiero prometerte que nunca dejaré de luchar por
+                  nosotros. Eres lo más valioso que tengo y cada día me esfuerzo
+                  por ser mejor, no solo por mí, sino porque quiero darte lo
+                  mejor de mí. Lo nuestro vale más que todo y haré lo que sea
+                  necesario para que siempre estemos juntos.
+                </p>
+              </div>
+
+              <!-- Slide 7 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzYzdjR3cWtrOWx6MnBoMWZpYzNrYmZyeWRqZDFwZWF2Z2t2eDl2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P4GxohAK1vaKI2yH8E/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Hay algo en ti que me hace sentir diferente, como si todo
+                  cobrara sentido cuando estoy contigo. Hasta los días más
+                  grises se llenan de color con solo escucharte, con un mensaje
+                  tuyo, con un “te amo” tuyo. Gracias por ser esa persona tan
+                  especial que ilumina mi vida de una forma única.
+                </p>
+              </div>
+
+              <!-- Slide 8 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dWU1eTZ0N3g4M3Z5ejlkeGExeWlkZmNudzRxNHhzNW9ycDQ3NDNjNCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/URxQZPwB6OZW7sluwL/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  No encuentro palabras suficientes para describir lo mucho que
+                  significas para mí. Te amo de una manera tan inmensa que ni el
+                  tiempo ni la distancia podrían cambiarlo. Eres mi todo, mi
+                  presente y mi futuro, y lo único que quiero es compartir cada
+                  momento contigo, porque contigo todo tiene sentido.
+                </p>
+              </div>
+
+              <!-- Slide 9 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a2VydWsyejNzNXFmNXhkN29iNHUxOWZjODl0Y3YwZjM1cnh3ZmlzbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/v6HmjWFF80ByC2JcRl/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">
+                  Amor, quiero que recuerdes siempre que eres la persona más
+                  especial de mi vida. Puede que no siempre encuentre las
+                  palabras correctas para expresarlo, pero cada mirada, cada
+                  gesto y cada detalle mío llevan implícito lo mucho que te
+                  adoro. Eres mi paz en medio del caos, mi alegría en los días
+                  tristes y la razón por la que sueño con un futuro lleno de
+                  cosas bonitas.
+                </p>
+              </div>
+
+              <!-- Slide 10 -->
+              <div class="slide hidden">
+                <img
+                  src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NmVnZ2t6Z3cxcjhwaXh3cWNrNDlhazd6aGljbDcxdDdyb3V4YTk3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qs5khBKll3CazwLauS/giphy.gif"
+                  alt="Pareja"
+                  class="surprise-img"
+                />
+                <p class="small">No m hables feo q me pongo tite, muak jsjs.</p>
+                <p class="small">TE AMO MI MARIANITAAAAAAAAAAAAAAAAAAAAAA.</p>
+              </div>
+
+              <button id="nextBtn" class="btn">Siguiente ➡️</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Hecho con mucho 💗</p>
+      </footer>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
